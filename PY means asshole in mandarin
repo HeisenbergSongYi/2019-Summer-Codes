@@ -124,9 +124,9 @@ x,y = y,x
 """
 
 """
-f = open("E://shit.txt",'wr')
+f = open("E://nigger.txt",'wr')
 type(f)
-f.write("shitshitshi")
+f.write("niggerniggernigger")
 f.__next__()
 f.close()
 """
@@ -223,7 +223,7 @@ d = os.mkdir("shift")
 """
 
 """
-f = open("shit.txt")
+f = open("nigger.txt")
 for line in f:
     print (line, end='')
 for line2 in f:
@@ -407,3 +407,94 @@ for shit in ls_lander:
 for i in range(len(ls_lander)):
     print(ls_lander[i])
 """
+"""
+ass = list(range(0, -9, -1))
+print(ass)
+"""
+
+"""
+a = len(["I", "am", "a", "pythoner", "I", "am", "learning", "it", "with", "qiwsir"])
+anus = list(range(a))
+print(anus)
+"""
+"""
+for i in range(1,100):
+    a =i%3
+    if a==0:
+        print(i)
+"""
+
+"""
+a=[1,2,3,4,5]
+b=[9,8,7,6,5]
+for dick in range(len(a)):
+    thigh = a[dick]+b[dick]
+    print(thigh)
+"""
+"""
+c = [1,2,3]
+d = [4,5,6,7,8]
+fucking_hell = list(zip(c,d))
+print(fucking_hell)
+"""
+
+"""
+a=[1,2,3,4,5]
+b=[9,8,7,6,5]
+for a,b in list(zip(a,b)):
+    n = a+b
+    print(n)
+"""
+
+"""
+a=[1,2,3,4,5]
+b=[9,8,7,6,5]
+nmsl=[]
+
+for x,y in list(zip(a,b)):
+    nmsl.append(x+y)
+
+print(nmsl)
+"""
+"""
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+b=["python","www.itdiffer.com","qiwsir","cnmlgbnmsl?"]
+nmsl=[]
+length = len(a) if len(a)<len(b) else len(b)
+for n in range(length):
+    nmsl.append(str(a[n])+b[n])
+print(nmsl)
+"""
+"""
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+b=["python","www.itdiffer.com","qiwsir","cnmlgbnmsl?"]
+cnmb=[]
+
+for x,y in list(zip(a,b)):
+    cnmb.append(str(x)+y)
+
+print(cnmb)
+"""
+"""
+myinfor = {"name":"qiwsir",	"site":"qiwsir.github.io", "lang":"python"}
+infor = {}
+for k,v in myinfor.items():
+    infor[v]=k
+
+print(infor)
+"""
+myinfor = {"name":"qiwsir",	"site":"qiwsir.github.io", "lang":"python"}
+fuckoff = list(zip(myinfor.values(), myinfor.keys()))
+
+
+print(fuckoff)
+print(myinfor)
+
+
+
+
+
+
+
+
+
