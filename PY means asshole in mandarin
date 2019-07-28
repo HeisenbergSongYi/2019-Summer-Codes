@@ -124,9 +124,9 @@ x,y = y,x
 """
 
 """
-f = open("E://nigger.txt",'wr')
+f = open("E://shit.txt",'wr')
 type(f)
-f.write("niggerniggernigger")
+f.write("shitshitshi")
 f.__next__()
 f.close()
 """
@@ -223,7 +223,7 @@ d = os.mkdir("shift")
 """
 
 """
-f = open("nigger.txt")
+f = open("shit.txt")
 for line in f:
     print (line, end='')
 for line2 in f:
@@ -407,6 +407,7 @@ for shit in ls_lander:
 for i in range(len(ls_lander)):
     print(ls_lander[i])
 """
+
 """
 ass = list(range(0, -9, -1))
 print(ass)
@@ -489,12 +490,3 @@ fuckoff = list(zip(myinfor.values(), myinfor.keys()))
 
 print(fuckoff)
 print(myinfor)
-
-
-
-
-
-
-
-
-
