@@ -484,9 +484,82 @@ for k,v in myinfor.items():
 
 print(infor)
 """
+
+"""
 myinfor = {"name":"qiwsir",	"site":"qiwsir.github.io", "lang":"python"}
 fuckoff = list(zip(myinfor.values(), myinfor.keys()))
 
 
 print(fuckoff)
 print(myinfor)
+"""
+"""
+week = ['monday', 'sunday', 'friday']
+for i in range(len(week)):
+    print((week[i])+' is '+str(i))
+
+"""
+
+"""
+week = ['monday', 'sunday', 'friday']
+for (i,shit) in enumerate(week):
+    print(shit+ 'is' +str(i))
+"""
+
+"""
+seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+print(list(enumerate(seasons)))
+"""
+
+"""
+raw = 'Can you go fuck yourself? Or let a prostitute fuck you?'
+raw_list = raw.split(" ")
+temp = raw_list
+
+for i,string in enumerate(raw_list):
+    if "fuck" in string:
+        raw_list[i]= "****"
+sentence = " ".join(raw_list)
+print(sentence)
+"""
+
+"""
+power2 = []
+for i in range(1,10):
+    power2.append(i*i)
+
+print(power2)
+
+"""
+"""
+squares = [x**2 for x in range(1,100)]
+print(squares)
+"""
+"""
+remainders = [x**2 % 5 for x in range(1,101)]
+print(remainders)
+"""
+"""
+myass = ['     glass','apple ','greenleaf    ']
+mynewass = [word.strip() for word in myass]
+print(mynewass)
+"""
+"""
+i = 666
+[i for i in range(9)]
+print(i)
+"""
+print("input your age")
+age = input()
+if not age.isdigit():
+    print("I need a fucking integer")
+elif int(age)<0 and int(age)>=100:
+    print("I need a fucking number between 1 to 100! Fuck you, jackass!")
+    pass
+else:
+    age = int(age)
+    while age > 60 and age <100:
+        print("u are free to retire")
+    else:
+        print("lmao")
+
