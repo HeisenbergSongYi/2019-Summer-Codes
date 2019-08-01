@@ -549,17 +549,48 @@ i = 666
 [i for i in range(9)]
 print(i)
 """
-print("input your age")
-age = input()
-if not age.isdigit():
-    print("I need a fucking integer")
-elif int(age)<0 and int(age)>=100:
-    print("I need a fucking number between 1 to 100! Fuck you, jackass!")
-    pass
-else:
-    age = int(age)
-    while age > 60 and age <100:
-        print("u are free to retire")
+
+"""
+guess=0
+while guess<3:
+    print("input your age")
+    age = input()
+    if not age.isdigit():
+        print("I need a fucking integer")
+    elif int(age)<0 or int(age)>=100:
+        print("I need a fucking number between 1 and 100! Fuck you, jackass!")
+        pass
     else:
-        print("lmao")
+        age = int(age)
+        if age > 60 and age <100:
+            print("u are free to retire")
+        else:
+            print("u cannot retire")
+    print("end of one round")
+    guess += 1
+"""
+
+import random
+i = 0
+xnumber = random.randint(0, 9)
+
+while i <10:
+    number = input("guess a number between 1-9")
+    if not number.isdigit():
+        print("I need a fucking integer")
+        break
+    if int(number)<0 and int(number)>9:
+        print("That number is between zero and nine")
+        break
+    x = 10 -i
+    number = int(number)
+    if number == xnumber:
+        print("nice bitch you are correct! Damn it!")
+    if number <  xnumber:
+        print("No, fucking no! That number is bigger!")
+    if number >  xnumber:
+        print("No, that fucking number is smaller! Blyat")
+
+    i += i
+    continue
 
